@@ -43,3 +43,4 @@ int main() {
 	return 0;
 }
 构造函数和析构函数到底是干嘛的
+this指针
