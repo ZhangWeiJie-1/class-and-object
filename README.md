@@ -44,3 +44,14 @@ int main() {
 }
 构造函数和析构函数到底是干嘛的
 this指针
+
+赋值运算符重载
+c++编译器至少给一个类添加4个函数
+
+默认构造函数(无参，函数体为空)
+默认析构函数(无参，函数体为空)
+默认拷贝构造函数，对属性进行值拷贝
+赋值运算符 operator=, 对属性进行值拷贝
+如果类中有属性指向堆区，做赋值操作时也会出现深浅拷贝问题
+<img width="452" height="622" alt="image" src="https://github.com/user-attachments/assets/dcc14ad7-bd64-4603-8383-3161acf11abb" />
+
